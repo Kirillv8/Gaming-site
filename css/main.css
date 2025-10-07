@@ -41,6 +41,7 @@ h6 {
 a {
   text-decoration: none;
 }
+
 .wrapper {
   background: #4a2800;
   background: linear-gradient(
@@ -49,3 +50,4 @@ a {
     rgba(0, 0, 0, 1) 9%
   );
 }
+
