@@ -9,7 +9,7 @@
 html,
 body {
   height: 100%;
-  font-family: Popping, sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 img,
@@ -41,3 +41,13 @@ h6 {
 a {
   text-decoration: none;
 }
+
+.wrapper {
+  background: #4a2800;
+  background: linear-gradient(
+    90deg,
+    rgba(74, 40, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 9%
+  );
+}
+
