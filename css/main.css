@@ -51,3 +51,60 @@ a {
   );
 }
 
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 50, 0;
+}
+
+header > span {
+  text-transform: uppercase;
+  font-size: 29px;
+  font-weight: 800;
+}
+
+header > nav {
+  float: right;
+  width: 50%;
+}
+
+header > nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > nav > ul > li {
+  display: inline-block;
+}
+
+header > nav > ul > li > a {
+  color: white;
+}
+
+header > nav > ul > li > a:hover {
+  border-bottom: 5px solid #dc7000;
+}
+
+header > nav > ul > li > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa9021;
+  color: #fff;
+  font-size: 13px;
+  font-family: Poppins, sans-serif;
+  border-radius: 6px;
+  height: 41px;
+  width: 132px;
+  border: none;
+  cursor: pointer;
+}
+
+header > nav > ul > li > button:hover {
+  background-color: #c91010;
+  transition: all 500ms ease;
+}
