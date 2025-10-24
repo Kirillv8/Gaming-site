@@ -110,6 +110,7 @@ header > nav > ul > li > button {
 header > nav > ul > li > button:hover {
   background-color: #c91010;
   transition: all 500ms ease;
+  transform: scale(1.1);
 }
 
 .hero--container {
@@ -158,6 +159,8 @@ header > nav > ul > li > button:hover {
 
 .btn:hover {
   background-color: #c91010;
+  transform: scale(1.1);
+  transition: all 500ms ease;
 }
 
 .hero--container .joy_stick {
@@ -169,4 +172,94 @@ header > nav > ul > li > button:hover {
 .hero--container .unity {
   margin-top: 50px;
   justify-content: center;
+}
+
+/* Секция с играми */
+.trending.containe {
+  padding-top: 150px;
+}
+
+.trending.container a {
+  display: inline-block;
+  background-color: #e87d0e;
+  height: 57px;
+  width: 139px;
+  border-radius: 40px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  align-self: flex-start;
+  left: 1184px;
+  top: 880px;
+  position: absolute;
+  color: white;
+  border-style: hidden;
+  outline: none;
+  width: 120px;
+  cursor: pointer;
+  padding: 12px 23px;
+}
+
+.trending.container a:hover {
+  background-color: #c91010;
+  transform: scale(1.1);
+  transition: all 500ms ease;
+}
+
+.trending.container h2 {
+  font-weight: 700;
+  font-size: 31px;
+}
+.block {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 100px;
+}
+
+.block span {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.fire-icon {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.container-big-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container-banner {
+  padding: 0 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.container-banner h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.container-banner p {
+  line-height: 170%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.container-banner img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  max-width: 100%;
 }
