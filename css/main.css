@@ -263,3 +263,87 @@ header > nav > ul > li > button:hover {
   margin-bottom: 30px;
   max-width: 100%;
 }
+
+/* дополнительный див для того чтобы небыло разрыва в бекграунде между .wrapper и features */
+.transition-bg {
+  height: 250px;
+  background: linear-gradient(
+    90deg,
+    rgba(74, 40, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 9%
+  );
+}
+
+/* секция с платформами и проектами */
+.features {
+  width: 100%;
+  height: 881px;
+  background-image: url("../img/features/phone5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 0, 0, 0.3);
+  background-attachment: fixed;
+}
+
+.container-h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.features h3 {
+  font-size: 26px;
+  font-weight: 600;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.features .icon-array {
+  width: 20px;
+  height: auto;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.mainContainer2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.mainContainer .platform1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mainContainer2 .platform2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 50p;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mainContainer .platform1 > p {
+  line-height: 170%;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mainContainer2 .platform2 > p {
+  line-height: 170%;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
