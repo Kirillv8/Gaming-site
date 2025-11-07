@@ -256,8 +256,6 @@ header > nav > ul > li > button:hover {
   padding-top: 40px;
 }
 
-/* container-text-and-img */
-
 .container-text-and-img {
   margin: 200px 50px;
   background-color: #1c140f;
@@ -265,10 +263,23 @@ header > nav > ul > li > button:hover {
   padding: 100px 50px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.img-block {
+  flex-basis: 30%;
+}
+
+.img-block img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .container-text {
-  width: 500px;
+  flex-basis: 40%;
+  width: auto;
 }
 
 .container-text-and-img h4 {
@@ -282,4 +293,81 @@ header > nav > ul > li > button:hover {
   font-size: 28px;
   font-weight: 700;
   padding-bottom: 20px;
+}
+
+.container-text-and-img {
+  margin: 200px 50px;
+  background-color: #1c140f;
+  border-radius: 15px;
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.img-block {
+  flex-basis: 40%;
+}
+
+.img-block img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container-text {
+  flex-basis: 55%;
+  width: auto;
+}
+
+.container-text-and-img h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.container-text-and-img h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.container-people {
+  margin: 200px 50px; /* Отдельный отступ для этого блока */
+}
+
+/* Стиль для списка людей - делаем его горизонтальным */
+.blocks-people {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* Стиль для каждого отдельного блока человека (вертикально) */
+.blocks-people > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Стиль для изображения человека */
+.blocks-people img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+/* Стиль для текста */
+.blocks-people p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Заголовок "Our Team" */
+.container-people h2 {
+  text-align: center;
+  margin-bottom: 50px;
 }
