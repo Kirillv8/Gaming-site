@@ -255,3 +255,31 @@ header > nav > ul > li > button:hover {
   justify-content: center;
   padding-top: 40px;
 }
+
+/* container-text-and-img */
+
+.container-text-and-img {
+  margin: 200px 50px;
+  background-color: #1c140f;
+  border-radius: 15px;
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-text {
+  width: 500px;
+}
+
+.container-text-and-img h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.container-text-and-img h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
