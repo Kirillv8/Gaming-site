@@ -200,26 +200,35 @@ header > nav > ul > li > button:hover {
   font-size: 12px;
 }
 
-/* container-photo-one */
-.container-photo-one {
+/* container-photo */
+.container-photo-one,
+.container-photo-two,
+.container-photo-three {
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin-bottom: 100px;
 }
 
-.container-photo-one-text h2 {
+.container-photo-one-text h2,
+.container-photo-two-text h2,
+.container-photo-three-text h2 {
   font-size: 30px;
   font-weight: 400px;
   margin-bottom: 30px;
 }
-.container-photo-one-text p {
+.container-photo-one-text p,
+.container-photo-two-text p,
+.container-photo-three-text p {
   max-width: 500px;
   font-size: 17px;
   font-weight: 300px;
   margin-bottom: 30px;
 }
 
-.container-photo-one-text button {
+.container-photo-one-text button,
+.container-photo-two-text button,
+.container-photo-three-text button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,7 +243,9 @@ header > nav > ul > li > button:hover {
   cursor: pointer;
 }
 
-.container-photo-one-text button:hover {
+.container-photo-one-text button:hover,
+.container-photo-two-text button:hover,
+.container-photo-three-text button:hover {
   background-color: #c91010;
   transition: all 500ms ease;
   transform: scale(1.1);
